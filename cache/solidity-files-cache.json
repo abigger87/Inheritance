@@ -1,0 +1,308 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/andreasbigger/Projects/Inheritance/contracts/InheritanceModule.sol": {
+      "lastModificationDate": 1624842954899,
+      "contentHash": "98de4853552691a1a8c267b35f4acba5",
+      "sourceName": "contracts/InheritanceModule.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1440
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@gnosis.pm/safe-contracts/contracts/base/OwnerManager.sol",
+        "@gnosis.pm/safe-contracts/contracts/common/Enum.sol",
+        "@gnosis.pm/safe-contracts/contracts/common/SignatureDecoder.sol",
+        "./interfaces/GnosisSafe.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.8.0"
+      ],
+      "artifacts": [
+        "InheritanceModule"
+      ]
+    },
+    "/Users/andreasbigger/Projects/Inheritance/node_modules/@gnosis.pm/safe-contracts/contracts/base/OwnerManager.sol": {
+      "lastModificationDate": 1624842073295,
+      "contentHash": "53e497cc090cb4931ca5905d7f671cc5",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/base/OwnerManager.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1440
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "OwnerManager"
+      ]
+    },
+    "/Users/andreasbigger/Projects/Inheritance/node_modules/@gnosis.pm/safe-contracts/contracts/common/Enum.sol": {
+      "lastModificationDate": 1624842073294,
+      "contentHash": "70d93d6b3e8b23f419fe3e529a43c17e",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/common/Enum.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1440
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Enum"
+      ]
+    },
+    "/Users/andreasbigger/Projects/Inheritance/node_modules/@gnosis.pm/safe-contracts/contracts/common/SignatureDecoder.sol": {
+      "lastModificationDate": 1624842073295,
+      "contentHash": "c42a4ba77188fde1fff8281ea700f4fa",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/common/SignatureDecoder.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1440
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SignatureDecoder"
+      ]
+    },
+    "/Users/andreasbigger/Projects/Inheritance/contracts/interfaces/GnosisSafe.sol": {
+      "lastModificationDate": 1624842163893,
+      "contentHash": "7303e9bf5eec8be4f29ae0b8063962c2",
+      "sourceName": "contracts/interfaces/GnosisSafe.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1440
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@gnosis.pm/safe-contracts/contracts/common/Enum.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.8.0"
+      ],
+      "artifacts": [
+        "GnosisSafe"
+      ]
+    },
+    "/Users/andreasbigger/Projects/Inheritance/node_modules/@gnosis.pm/safe-contracts/contracts/common/SelfAuthorized.sol": {
+      "lastModificationDate": 1624842073295,
+      "contentHash": "4c773e803298d5521ba60d7fc06df0b3",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/common/SelfAuthorized.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1440
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SelfAuthorized"
+      ]
+    },
+    "/Users/andreasbigger/Projects/Inheritance/contracts/Migrations.sol": {
+      "lastModificationDate": 1624828049087,
+      "contentHash": "6da5ce2f6774f2414c24eda4fab329f1",
+      "sourceName": "contracts/Migrations.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1440
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "version": "3.2",
+  "log": [
+    {
+      "Migrations": {
+        "src": "contracts/Migrations.sol:4",
+        "version": {
+          "withMetadata": "a8f789fbf06c7dfc72d2a332dd85e4fe9b47814aa4b5251ea9b9223fce9be463",
+          "withoutMetadata": "79375fba1fc25561072a5265db90df820d260ae674886f40f30e2d9e58b56be5",
+          "linkedWithoutMetadata": "79375fba1fc25561072a5265db90df820d260ae674886f40f30e2d9e58b56be5"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "setCompleted(uint256)",
+          "upgrade(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Migrations",
+            "src": "contracts/Migrations.sol:8"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Migrations",
+              "label": "owner",
+              "type": "t_address",
+              "src": "contracts/Migrations.sol:5"
+            },
+            {
+              "contract": "Migrations",
+              "label": "last_completed_migration",
+              "type": "t_uint256",
+              "src": "contracts/Migrations.sol:6"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "OwnerManager": {
+        "src": "@gnosis.pm/safe-contracts/contracts/base/OwnerManager.sol:8",
+        "version": {
+          "withMetadata": "7cf894e96a37d92e192e1e744fd07eaf5c145039b7bcb2dffa5860dd6b8aa35a",
+          "withoutMetadata": "3591e063067602231b6a7bfd7565d1e7317116ce18ef65fe6663ba79b82f1b7d",
+          "linkedWithoutMetadata": "3591e063067602231b6a7bfd7565d1e7317116ce18ef65fe6663ba79b82f1b7d"
+        },
+        "inherit": [
+          "SelfAuthorized"
+        ],
+        "libraries": [],
+        "methods": [
+          "addOwnerWithThreshold(address,uint256)",
+          "removeOwner(address,address,uint256)",
+          "swapOwner(address,address,address)",
+          "changeThreshold(uint256)",
+          "getThreshold()",
+          "isOwner(address)",
+          "getOwners()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "OwnerManager",
+              "label": "owners",
+              "type": "t_mapping(t_address,t_address)",
+              "src": "@gnosis.pm/safe-contracts/contracts/base/OwnerManager.sol:15"
+            },
+            {
+              "contract": "OwnerManager",
+              "label": "ownerCount",
+              "type": "t_uint256",
+              "src": "@gnosis.pm/safe-contracts/contracts/base/OwnerManager.sol:16"
+            },
+            {
+              "contract": "OwnerManager",
+              "label": "threshold",
+              "type": "t_uint256",
+              "src": "@gnosis.pm/safe-contracts/contracts/base/OwnerManager.sol:17"
+            }
+          ],
+          "types": {
+            "t_mapping(t_address,t_address)": {
+              "label": "mapping(address => address)"
+            },
+            "t_address": {
+              "label": "address"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "Enum": {
+        "src": "@gnosis.pm/safe-contracts/contracts/common/Enum.sol:6",
+        "version": {
+          "withMetadata": "8a8d750fdc9286e8e7e1a5a2d6485299172692daf44575fa43c4a167fdd7652f",
+          "withoutMetadata": "ac0db523ddc3e330f735df7b3b0b24460531c71290a891170e840f8f67d5ff6b",
+          "linkedWithoutMetadata": "ac0db523ddc3e330f735df7b3b0b24460531c71290a891170e840f8f67d5ff6b"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "SelfAuthorized": {
+        "src": "@gnosis.pm/safe-contracts/contracts/common/SelfAuthorized.sol:6",
+        "version": {
+          "withMetadata": "d6e7fe6447bccfc1a50615ac44650d1aa6b7678d8c3caca0c7b23c37614a4a02",
+          "withoutMetadata": "ac0db523ddc3e330f735df7b3b0b24460531c71290a891170e840f8f67d5ff6b",
+          "linkedWithoutMetadata": "ac0db523ddc3e330f735df7b3b0b24460531c71290a891170e840f8f67d5ff6b"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "SignatureDecoder": {
+        "src": "@gnosis.pm/safe-contracts/contracts/common/SignatureDecoder.sol:6",
+        "version": {
+          "withMetadata": "f2f73f5d1b3236b428e4a56410bedb36e0829d37c6068249c0d654676112323c",
+          "withoutMetadata": "ac0db523ddc3e330f735df7b3b0b24460531c71290a891170e840f8f67d5ff6b",
+          "linkedWithoutMetadata": "ac0db523ddc3e330f735df7b3b0b24460531c71290a891170e840f8f67d5ff6b"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "InheritanceModule": {
+        "src": "contracts/InheritanceModule.sol:17",
+        "version": {
+          "withMetadata": "7ad3216e911de632bad35e09307842cbf1cf326e25d2971aae826f39ccd1a37d",
+          "withoutMetadata": "fb9e763405e3df924ebd6d34ac8bb382ff9ba6f88c5768b3e45b709604faafba",
+          "linkedWithoutMetadata": "fb9e763405e3df924ebd6d34ac8bb382ff9ba6f88c5768b3e45b709604faafba"
+        },
+        "inherit": [
+          "SignatureDecoder",
+          "OwnerManager",
+          "SelfAuthorized"
+        ],
+        "libraries": [],
+        "methods": [
+          "setup(address[])",
+          "reconfigure(address[])",
+          "removeInheritance()",
+          "inherit(address,address,address,address)",
+          "getDataHash(bytes)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "InheritanceModule",
+              "label": "inheritants",
+              "type": "t_array(t_address)dyn_storage",
+              "src": "contracts/InheritanceModule.sol:31"
+            },
+            {
+              "contract": "InheritanceModule",
+              "label": "isInheritant",
+              "type": "t_mapping(t_address,t_bool)",
+              "src": "contracts/InheritanceModule.sol:32"
+            },
+            {
+              "contract": "InheritanceModule",
+              "label": "isExecuted",
+              "type": "t_mapping(t_bytes32,t_bool)",
+              "src": "contracts/InheritanceModule.sol:34"
+            }
+          ],
+          "types": {
+            "t_array(t_address)dyn_storage": {
+              "label": "address[]"
+            },
+            "t_address": {
+              "label": "address"
+            },
+            "t_mapping(t_address,t_bool)": {
+              "label": "mapping(address => bool)"
+            },
+            "t_bool": {
+              "label": "bool"
+            },
+            "t_mapping(t_bytes32,t_bool)": {
+              "label": "mapping(bytes32 => bool)"
+            },
+            "t_bytes32": {
+              "label": "bytes32"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "GnosisSafe": {
+        "src": "contracts/interfaces/GnosisSafe.sol:7",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "execTransactionFromModule(address,uint256,bytes,uint8)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      }
+    }
+  ]
+}
